@@ -7,6 +7,5 @@ def list():
             if abs(li[i]) > abs(li[i + 1]):
                 li[i], li[i + 1] = li[i + 1], li[i]
         print(j + 1, "Проход цикла - " , end=" ")
-
         print(li)
 list()
